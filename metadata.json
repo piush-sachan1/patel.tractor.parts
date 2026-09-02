@@ -1,0 +1,6 @@
+{
+  "name": "Patel Tractor Parts",
+  "description": "Central India's trusted distributor for genuine and aftermarket tractor, Mahindra Jeep, and Bolero commercial vehicle spares.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patel Tractor Parts | Stop the Downtime. Start the Engine.</title>
+    <meta name="description" content="Central India’s massive, ready-to-install inventory for Tractor and Bolero spares. Rapid Pan-India dispatch." />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Oswald', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            dark: '#020617',     // slate-950
+                            card: '#0f172a',     // slate-900
+                            border: '#1e293b',   // slate-800
+                            orange: '#f97316',   // orange-500
+                            green: '#10b981'     // emerald-500
+                        }
+                    },
+                    backgroundImage: {
+                        'grid-pattern': 'radial-gradient(circle, #1e293b 1px, transparent 1px)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .bg-grid {
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-slate-300 bg-brand-dark selection:bg-brand-orange selection:text-white">
+
+    <!-- Top Info Bar -->
+    <div class="hidden md:block bg-brand-dark border-b border-brand-border text-sm py-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center text-slate-400">
+            <div class="flex gap-6">
+                <span><i class="fa-solid fa-location-dot text-brand-orange mr-2"></i> Kabrai, Uttar Pradesh 210424</span>
+                <span><i class="fa-solid fa-clock text-brand-orange mr-2"></i> Open Daily: 9:00 AM - 7:00 PM</span>
+            </div>
+            <div class="flex gap-4">
+                <a href="#" class="hover:text-white transition"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-white transition"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur-sm border-b border-brand-border shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between h-20 items-center">
+            <!-- Logo -->
+            <div class="flex items-center gap-2">
+                <div class="bg-white text-brand-dark font-heading font-bold text-2xl px-2 py-1 tracking-tight">PATEL</div>
+                <div class="font-heading font-bold text-xl text-white tracking-wide">TRACTOR PARTS</div>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden lg:flex items-center space-x-8 text-sm font-semibold tracking-wide">
+                <a href="#" class="text-white hover:text-brand-orange transition">HOME</a>
+                <a href="#about" class="hover:text-brand-orange transition">ABOUT US</a>
+                <a href="#inventory" class="hover:text-brand-orange transition">CURRENT INVENTORY</a>
+                <a href="#specialties" class="hover:text-brand-orange transition">SPECIALTIES</a>
+                <a href="#why-us" class="hover:text-brand-orange transition">WHY CHOOSE US</a>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="hidden lg:flex items-center gap-4">
+                <div class="flex flex-col text-right mr-2">
+                    <span class="text-xs text-slate-400 font-bold uppercase">Call Us Today</span>
+                    <a href="tel:+918707826228" class="text-white font-bold tracking-wider hover:text-brand-orange transition">087078 26228</a>
+                </div>
+                <a href="https://wa.me/918707826228" target="_blank" class="bg-brand-green hover:bg-emerald-600 text-white px-6 py-2.5 rounded text-sm font-bold transition shadow-lg shadow-emerald-900/20 flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> ORDER ON WHATSAPP
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Form -->
+    <section class="relative pt-20 pb-32 overflow-hidden bg-brand-dark bg-grid-pattern bg-grid">
+        <div class="absolute inset-0 bg-gradient-to-r from-brand-dark via-brand-dark/90 to-transparent"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
+            
+            <!-- Hero Text -->
+            <div>
+                <div class="inline-block bg-brand-border text-brand-orange font-bold text-xs px-3 py-1 rounded-sm mb-6 tracking-widest uppercase border border-slate-700">
+                    Trusted Since 1997
+                </div>
+                <h1 class="font-heading text-5xl md:text-7xl font-bold text-white leading-tight mb-6 tracking-tight uppercase">
+                    Stop the Downtime.<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-400">Start the Engine.</span>
+                </h1>
+                <p class="text-lg text-slate-400 mb-8 max-w-xl leading-relaxed">
+                    Central India’s massive, ready-to-install inventory for Tractor and Bolero spares. <span class="text-brand-orange font-semibold">Rapid Pan-India dispatch</span> to keep your machinery running.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 mb-12">
+                    <a href="https://wa.me/918707826228" target="_blank" class="bg-brand-orange hover:bg-orange-600 text-white px-8 py-4 rounded font-bold transition flex items-center justify-center gap-2">
+                        MESSAGE ON WHATSAPP <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="tel:+918707826228" class="bg-transparent border border-slate-600 text-white hover:bg-brand-border px-8 py-4 rounded font-bold transition flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-phone"></i> CALL 087078 26228
+                    </a>
+                </div>
+
+                <!-- Stats Row -->
+                <div class="grid grid-cols-3 gap-6 pt-8 border-t border-brand-border">
+                    <div>
+                        <div class="text-2xl font-bold text-white font-heading">1997</div>
+                        <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Established</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold text-brand-orange font-heading">10,000+</div>
+                        <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Parts in Stock</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold text-white font-heading">24 Hrs</div>
+                        <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Avg Dispatch</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Lead Form -->
+            <div class="lg:pl-12 relative">
+                <!-- Decorative element -->
+                <div class="absolute -top-4 -right-4 w-24 h-24 bg-brand-orange/20 blur-2xl rounded-full"></div>
+                
+                <div class="bg-brand-card p-8 rounded-xl border border-brand-border relative z-10 shadow-2xl">
+                    <div class="flex items-center gap-3 mb-6 pb-6 border-b border-brand-border">
+                        <div class="bg-brand-orange p-2 rounded text-white"><i class="fa-solid fa-bolt"></i></div>
+                        <div>
+                            <h3 class="font-heading text-xl font-bold text-white tracking-wide">QUICK PARTS INQUIRY</h3>
+                            <p class="text-xs text-slate-400">Get price & availability in 10 minutes</p>
+                        </div>
+                    </div>
+                    <form class="space-y-5">
+                        <div>
+                            <label class="block text-xs font-semibold tracking-wider text-slate-400 uppercase mb-2">Vehicle Brand / Type</label>
+                            <select class="w-full bg-brand-dark border border-brand-border rounded p-3 text-white focus:outline-none focus:border-brand-orange appearance-none">
+                                <option>Select Brand...</option>
+                                <option>Mahindra Tractor</option>
+                                <option>Swaraj Tractor</option>
+                                <option>Sonalika / Eicher</option>
+                                <option>Bolero / Jeep</option>
+                                <option>Other Brand</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold tracking-wider text-slate-400 uppercase mb-2">Part Name or OEM Number</label>
+                            <input type="text" placeholder="e.g., Hydraulic Pump, Clutch Plate" class="w-full bg-brand-dark border border-brand-border rounded p-3 text-white focus:outline-none focus:border-brand-orange">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold tracking-wider text-slate-400 uppercase mb-2">WhatsApp Number</label>
+                            <input type="tel" placeholder="+91" class="w-full bg-brand-dark border border-brand-border rounded p-3 text-white focus:outline-none focus:border-brand-orange">
+                        </div>
+                        <button type="button" class="w-full bg-brand-green hover:bg-emerald-600 text-white font-bold py-4 rounded transition shadow-lg shadow-emerald-900/30 flex justify-center items-center gap-2 mt-4">
+                            REQUEST A CALLBACK <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white text-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <!-- Text Content -->
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-8 h-1 bg-brand-orange"></div>
+                        <span class="text-brand-orange font-bold text-sm tracking-widest uppercase">The Heritage</span>
+                    </div>
+                    <h2 class="font-heading text-4xl md:text-5xl font-bold mb-6 text-brand-dark uppercase">About Patel Tractor Parts</h2>
+                    <p class="text-lg leading-relaxed text-slate-600 mb-8 font-medium">
+                        Since 1997, Patel Tractor Parts has been Central India’s most trusted distributor for genuine and aftermarket agricultural and commercial vehicle spares. Operating with a massive, ready-to-install inventory, we specialize in top tractor brands including Swaraj, Mahindra & Mahindra, Sonalika, Eicher, Escorts Kubota, Powertrac, and Farmtrac. 
+                        <br><br>
+                        Beyond agriculture, we are a primary supplier of high-quality components for Mahindra Jeep and Bolero commercial fleets. Backed by decades of experience, we guarantee exact OEM fitment, rapid dispatch, and zero downtime—because we know your machinery cannot afford to stop.
+                    </p>
+                    
+                    <div class="grid sm:grid-cols-2 gap-6 mt-8 border-t border-gray-200 pt-8">
+                        <div class="flex gap-4">
+                            <div class="text-brand-orange text-2xl mt-1"><i class="fa-solid fa-circle-check"></i></div>
+                            <div>
+                                <h4 class="font-bold text-brand-dark">Genuine Parts Only</h4>
+                                <p class="text-sm text-slate-500 mt-1">Sourced directly from trusted manufacturers.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="text-brand-orange text-2xl mt-1"><i class="fa-solid fa-truck-fast"></i></div>
+                            <div>
+                                <h4 class="font-bold text-brand-dark">Rapid Dispatch</h4>
+                                <p class="text-sm text-slate-500 mt-1">Same-day shipping for urgent requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image & Stats Card -->
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Industrial Warehouse" class="rounded-lg shadow-2xl object-cover h-[500px] w-full filter contrast-125">
+                    
+                    <!-- Floating Stat Box -->
+                    <div class="absolute -bottom-8 -left-8 md:bottom-8 md:-left-12 bg-brand-dark border-l-4 border-brand-orange p-8 rounded-r-lg shadow-2xl w-72">
+                        <h4 class="font-heading text-2xl font-bold text-white uppercase tracking-wide mb-2">20+ Years in Central India</h4>
+                        <p class="text-slate-400 text-sm mb-6">Delivering reliability since 1997.</p>
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-center border-b border-slate-800 pb-2">
+                                <span class="text-slate-400 text-sm">Rating</span>
+                                <span class="text-white font-bold flex items-center gap-1"><i class="fa-solid fa-star text-brand-orange text-xs"></i> 5.0 Google</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-slate-400 text-sm">Location</span>
+                                <span class="text-white font-bold">Kabrai, UP</span>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/918707826228" target="_blank" class="block text-center bg-brand-orange text-white font-bold py-3 mt-6 rounded hover:bg-orange-600 transition text-sm">
+                            CONTACT OUR TEAM
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inventory Grid Section -->
+    <section id="inventory" class="py-24 bg-brand-dark border-t border-brand-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Section Header -->
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 border-b border-brand-border pb-6 gap-6">
+                <div>
+                    <div class="flex items-center gap-2 mb-2">
+                        <div class="w-6 h-1 bg-brand-orange"></div>
+                        <span class="text-slate-400 font-bold text-xs tracking-widest uppercase">What We Stock</span>
+                    </div>
+                    <h2 class="font-heading text-4xl font-bold text-white uppercase">Explore Our Inventory</h2>
+                </div>
+                <!-- Filter Tabs (Visual Only for HTML) -->
+                <div class="flex gap-2 text-sm font-semibold overflow-x-auto pb-2">
+                    <button class="bg-brand-orange text-white px-4 py-2 rounded">All Parts</button>
+                    <button class="text-slate-400 hover:text-white px-4 py-2 rounded transition">Engine</button>
+                    <button class="text-slate-400 hover:text-white px-4 py-2 rounded transition">Hydraulics</button>
+                    <button class="text-slate-400 hover:text-white px-4 py-2 rounded transition">Transmission</button>
+                </div>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Product Card 1 -->
+                <div class="bg-brand-card border border-brand-border rounded-lg overflow-hidden group hover:border-slate-600 transition">
+                    <div class="h-48 bg-slate-800 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Part" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-60">
+                        <div class="absolute top-4 left-4 bg-brand-orange text-white text-xs font-bold px-2 py-1 rounded shadow">OEM PART</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading font-bold text-xl text-white mb-2">Heavy-Duty Hydraulic Pump</h3>
+                        <p class="text-sm text-slate-400 mb-4 line-clamp-2">High-pressure hydraulic pump assembly ensuring smooth implement lifting. Exact fitment guaranteed.</p>
+                        <ul class="space-y-2 mb-6 text-sm text-slate-300">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-brand-orange mt-1 text-xs"></i> <span>Fits: Swaraj 744, Sonalika</span></li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-brand-orange mt-1 text-xs"></i> <span>Zero leakage guarantee</span></li>
+                        </ul>
+                        <a href="https://wa.me/918707826228" target="_blank" class="block text-center w-full bg-brand-dark border border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white font-bold py-2 rounded transition text-sm">
+                            ENQUIRE NOW <i class="fa-solid fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="bg-brand-card border border-brand-border rounded-lg overflow-hidden group hover:border-slate-600 transition">
+                    <div class="h-48 bg-slate-800 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1590514197471-10dff93b868e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Part" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-60">
+                        <div class="absolute top-4 left-4 bg-brand-orange text-white text-xs font-bold px-2 py-1 rounded shadow">READY STOCK</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading font-bold text-xl text-white mb-2">Engine Overhaul Kits</h3>
+                        <p class="text-sm text-slate-400 mb-4 line-clamp-2">Complete gasket, piston, and ring kits for major engine rebuilds and restoration.</p>
+                        <ul class="space-y-2 mb-6 text-sm text-slate-300">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-brand-orange mt-1 text-xs"></i> <span>Fits: Mahindra, Eicher</span></li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-brand-orange mt-1 text-xs"></i> <span>Premium grade materials</span></li>
+                        </ul>
+                        <a href="https://wa.me/918707826228" target="_blank" class="block text-center w-full bg-brand-dark border border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white font-bold py-2 rounded transition text-sm">
+                            ENQUIRE NOW <i class="fa-solid fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="bg-brand-card border border-brand-border rounded-lg overflow-hidden group hover:border-slate-600 transition">
+                    <div class="h-48 bg-slate-800 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1621532053155-709eb9709292?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Part" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-60">
+                        <div class="absolute top-4 left-4 bg-brand-green text-white text-xs font-bold px-2 py-1 rounded shadow">COMMERCIAL</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading font-bold text-xl text-white mb-2">Bolero Suspension Kit</h3>
+                        <p class="text-sm text-slate-400 mb-4 line-clamp-2">Heavy-duty leaf springs, bushes, and shock absorbers for commercial fleet vehicles.</p>
+                        <ul class="space-y-2 mb-6 text-sm text-slate-300">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-brand-orange mt-1 text-xs"></i> <span>Fits: Mahindra Bolero, Jeep</span></li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-brand-orange mt-1 text-xs"></i> <span>High load capacity</span></li>
+                        </ul>
+                        <a href="https://wa.me/918707826228" target="_blank" class="block text-center w-full bg-brand-dark border border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white font-bold py-2 rounded transition text-sm">
+                            ENQUIRE NOW <i class="fa-solid fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="bg-brand-card border border-brand-border rounded-lg overflow-hidden group hover:border-slate-600 transition">
+                    <div class="h-48 bg-slate-800 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1587823908848-bc6b6a22fb88?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Part" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-60">
+                        <div class="absolute top-4 left-4 bg-brand-orange text-white text-xs font-bold px-2 py-1 rounded shadow">BEST SELLER</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading font-bold text-xl text-white mb-2">Transmission & Clutch</h3>
+                        <p class="text-sm text-slate-400 mb-4 line-clamp-2">Ceramic and organic clutch plates, pressure plates, and release bearings for smooth shifting.</p>
+                        <ul class="space-y-2 mb-6 text-sm text-slate-300">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-brand-orange mt-1 text-xs"></i> <span>Fits: Powertrac, Farmtrac</span></li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-brand-orange mt-1 text-xs"></i> <span>Heat resistant friction</span></li>
+                        </ul>
+                        <a href="https://wa.me/918707826228" target="_blank" class="block text-center w-full bg-brand-dark border border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white font-bold py-2 rounded transition text-sm">
+                            ENQUIRE NOW <i class="fa-solid fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center border-t border-brand-border pt-8">
+                <p class="text-slate-400 mb-4">Don't see your part? We have 10,000+ components in stock.</p>
+                <a href="https://wa.me/918707826228" class="text-brand-orange font-bold hover:text-white transition uppercase tracking-widest text-sm">
+                    View Full Catalog on WhatsApp <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialties Section -->
+    <section id="specialties" class="py-24 bg-gray-50 text-brand-dark border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <div class="flex items-center justify-center gap-2 mb-2">
+                    <div class="w-6 h-1 bg-brand-orange"></div>
+                    <span class="text-brand-orange font-bold text-xs tracking-widest uppercase">Targeted Divisions</span>
+                    <div class="w-6 h-1 bg-brand-orange"></div>
+                </div>
+                <h2 class="font-heading text-4xl font-bold uppercase text-brand-dark">Our Specialties</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto mt-4">We separate our divisions to ensure you get expert service, whether you are managing a farm or running a commercial transport fleet.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-8">
+                <!-- Ag Card -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100 flex flex-col h-full">
+                    <div class="h-64 relative">
+                        <img src="https://images.unsplash.com/photo-1592982537447-6f23b2c219a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tractor in field" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark to-transparent"></div>
+                        <div class="absolute bottom-6 left-6 text-white flex items-center gap-3">
+                            <i class="fa-solid fa-tractor text-3xl text-brand-orange"></i>
+                            <h3 class="font-heading text-3xl font-bold uppercase">Agricultural Tractor Spares</h3>
+                        </div>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <p class="text-slate-600 mb-6 font-medium text-sm leading-relaxed">Central India's largest consolidated inventory for farming machinery. Minimizing harvest downtime with immediate parts availability.</p>
+                        
+                        <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Supported Brands</h4>
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="px-3 py-1 bg-gray-100 text-brand-dark text-xs font-bold border border-gray-200 rounded">Swaraj</span>
+                            <span class="px-3 py-1 bg-gray-100 text-brand-dark text-xs font-bold border border-gray-200 rounded">Mahindra</span>
+                            <span class="px-3 py-1 bg-gray-100 text-brand-dark text-xs font-bold border border-gray-200 rounded">Sonalika</span>
+                            <span class="px-3 py-1 bg-gray-100 text-brand-dark text-xs font-bold border border-gray-200 rounded">Eicher</span>
+                            <span class="px-3 py-1 bg-gray-100 text-brand-dark text-xs font-bold border border-gray-200 rounded">Escorts Kubota</span>
+                            <span class="px-3 py-1 bg-gray-100 text-brand-dark text-xs font-bold border border-gray-200 rounded">Powertrac</span>
+                            <span class="px-3 py-1 bg-gray-100 text-brand-dark text-xs font-bold border border-gray-200 rounded">Farmtrac</span>
+                        </div>
+
+                        <div class="mt-auto">
+                            <a href="https://wa.me/918707826228" class="block w-full text-center bg-brand-orange hover:bg-orange-600 text-white font-bold py-4 rounded transition text-sm tracking-wide shadow-md">
+                                BROWSE TRACTOR INVENTORY <i class="fa-solid fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Commercial Card -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100 flex flex-col h-full">
+                    <div class="h-64 relative">
+                        <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Commercial vehicle" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark to-transparent"></div>
+                        <div class="absolute bottom-6 left-6 text-white flex items-center gap-3">
+                            <i class="fa-solid fa-truck-pickup text-3xl text-brand-orange"></i>
+                            <h3 class="font-heading text-3xl font-bold uppercase">Commercial Fleet Spares</h3>
+                        </div>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <p class="text-slate-600 mb-6 font-medium text-sm leading-relaxed">Dedicated logistics and transport division. We supply heavy-duty components to keep transport operators and taxi fleets moving safely.</p>
+                        
+                        <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Supported Vehicles</h4>
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="px-3 py-1 bg-gray-100 text-brand-dark text-xs font-bold border border-gray-200 rounded">Mahindra Jeep</span>
+                            <span class="px-3 py-1 bg-gray-100 text-brand-dark text-xs font-bold border border-gray-200 rounded">Mahindra Bolero</span>
+                            <span class="px-3 py-1 bg-gray-100 text-brand-dark text-xs font-bold border border-gray-200 rounded">Commercial Spares</span>
+                        </div>
+                        
+                        <div class="p-4 bg-orange-50 border border-orange-100 rounded mb-8">
+                            <p class="text-xs text-orange-800 font-medium"><i class="fa-solid fa-circle-info mr-1"></i> Special B2B bulk rates available for fleet operators and regional mechanics.</p>
+                        </div>
+
+                        <div class="mt-auto">
+                            <a href="https://wa.me/918707826228" class="block w-full text-center bg-brand-orange hover:bg-orange-600 text-white font-bold py-4 rounded transition text-sm tracking-wide shadow-md">
+                                BROWSE COMMERCIAL INVENTORY <i class="fa-solid fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="py-24 bg-brand-dark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12 border-b border-brand-border pb-6">
+                <h2 class="font-heading text-3xl font-bold text-white uppercase">Why Choose Patel Tractor Parts</h2>
+                <p class="text-slate-400 mt-2">Trusted by thousands of farmers and mechanics across Central India.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Feature 1 -->
+                <div class="bg-brand-card p-8 border border-brand-border rounded-lg hover:border-brand-orange transition group">
+                    <i class="fa-solid fa-clock-rotate-left text-3xl text-brand-orange mb-6 group-hover:scale-110 transition duration-300"></i>
+                    <h4 class="font-bold text-white text-lg mb-3">Zero Downtime Guarantee</h4>
+                    <p class="text-sm text-slate-400">Our massive ready stock means you don't wait for ordering. If you need it today, we have it today.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-brand-card p-8 border border-brand-border rounded-lg hover:border-brand-orange transition group">
+                    <i class="fa-solid fa-truck-fast text-3xl text-brand-orange mb-6 group-hover:scale-110 transition duration-300"></i>
+                    <h4 class="font-bold text-white text-lg mb-3">Rapid Pan-India Dispatch</h4>
+                    <p class="text-sm text-slate-400">Strategically located in UP to dispatch via trusted logistics networks across state lines rapidly.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-brand-card p-8 border border-brand-border rounded-lg hover:border-brand-orange transition group">
+                    <i class="fa-solid fa-wrench text-3xl text-brand-orange mb-6 group-hover:scale-110 transition duration-300"></i>
+                    <h4 class="font-bold text-white text-lg mb-3">Exact OEM Fitment</h4>
+                    <p class="text-sm text-slate-400">We verify part numbers against your specific model to guarantee it bolts on perfectly the first time.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="bg-brand-card p-8 border border-brand-border rounded-lg hover:border-brand-orange transition group">
+                    <i class="fa-solid fa-star text-3xl text-brand-orange mb-6 group-hover:scale-110 transition duration-300"></i>
+                    <h4 class="font-bold text-white text-lg mb-3">5.0 Star Rated Service</h4>
+                    <p class="text-sm text-slate-400">Decades of honest pricing and reliable mechanical advice have earned us top local ratings.</p>
+                </div>
+            </div>
+
+            <!-- Urgent Banner -->
+            <div class="mt-12 bg-slate-900 border border-brand-border rounded-lg p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-brand-orange/5 rounded-full blur-3xl"></div>
+                <div class="relative z-10">
+                    <h3 class="font-heading text-2xl text-white font-bold uppercase">Need Urgent Spares? We dispatch in 24 Hours.</h3>
+                    <p class="text-slate-400 text-sm mt-1">Send us a photo of your old part on WhatsApp for instant identification.</p>
+                </div>
+                <div class="flex gap-4 relative z-10 whitespace-nowrap">
+                    <a href="https://wa.me/918707826228" class="bg-brand-orange text-white px-6 py-3 rounded font-bold hover:bg-orange-600 transition flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> WHATSAPP US
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instant Parts Check Form (Bottom Middle Section) -->
+    <section class="py-24 bg-gray-100">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-brand-dark rounded-xl shadow-2xl overflow-hidden">
+                <div class="p-8 border-b border-brand-border flex items-center gap-4">
+                    <i class="fa-brands fa-whatsapp text-4xl text-brand-green"></i>
+                    <div>
+                        <h2 class="font-heading text-2xl font-bold text-white uppercase tracking-wide">Instant Parts Check Via WhatsApp</h2>
+                        <p class="text-slate-400 text-sm">Fill this out and we'll reply on WhatsApp within 10 minutes with price and stock.</p>
+                    </div>
+                </div>
+                <div class="p-8 bg-white text-brand-dark">
+                    <div class="flex border-b border-gray-200 mb-8">
+                        <div class="pb-3 border-b-2 border-brand-orange text-brand-dark font-bold text-sm uppercase px-4"><i class="fa-solid fa-1 mr-1 text-brand-orange"></i> Step 1: Vehicle Info</div>
+                        <div class="pb-3 text-gray-400 font-bold text-sm uppercase px-4"><i class="fa-solid fa-2 mr-1"></i> Step 2: Confirmation</div>
+                    </div>
+                    <form class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Vehicle / Brand</label>
+                                <select class="w-full border border-gray-300 rounded p-3 text-slate-700 bg-gray-50 focus:outline-none focus:border-brand-orange focus:ring-1 focus:ring-brand-orange appearance-none">
+                                    <option>Select...</option>
+                                    <option>Swaraj</option>
+                                    <option>Mahindra</option>
+                                    <option>Sonalika</option>
+                                    <option>Mahindra Bolero</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Part Category (Optional)</label>
+                                <select class="w-full border border-gray-300 rounded p-3 text-slate-700 bg-gray-50 focus:outline-none focus:border-brand-orange focus:ring-1 focus:ring-brand-orange appearance-none">
+                                    <option>Select...</option>
+                                    <option>Engine / Filters</option>
+                                    <option>Hydraulics</option>
+                                    <option>Transmission</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Describe The Part (or Part Number)</label>
+                            <input type="text" placeholder="e.g. Need clutch plate for Swaraj 744 XT" class="w-full border border-gray-300 rounded p-3 text-slate-700 bg-gray-50 focus:outline-none focus:border-brand-orange focus:ring-1 focus:ring-brand-orange">
+                        </div>
+                        <button type="button" class="w-full bg-brand-green hover:bg-emerald-600 text-white font-bold py-4 rounded transition shadow-md flex justify-center items-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> MESSAGE STORE ON WHATSAPP
+                        </button>
+                        <p class="text-center text-xs text-slate-400 mt-2">You will be redirected to WhatsApp securely.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="py-24 bg-white border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <div class="flex items-center gap-2 mb-2">
+                    <div class="w-6 h-1 bg-brand-orange"></div>
+                    <span class="text-slate-400 font-bold text-xs tracking-widest uppercase">Get In Touch</span>
+                </div>
+                <h2 class="font-heading text-4xl font-bold text-brand-dark uppercase">Contact Us</h2>
+                <p class="text-slate-500 mt-2 max-w-2xl">Visit our storefront in Kabrai or reach out digitally. Our technical experts are standing by to identify your exact mechanical needs.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-5 gap-12 bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden">
+                <!-- Info Panel -->
+                <div class="lg:col-span-2 bg-brand-dark p-10 relative overflow-hidden text-white">
+                    <div class="absolute -bottom-24 -right-24 w-64 h-64 bg-brand-border rounded-full opacity-50"></div>
+                    <h3 class="font-heading text-2xl font-bold mb-8 uppercase border-b border-brand-border pb-4">Guaranteed Response</h3>
+                    
+                    <div class="space-y-8 relative z-10">
+                        <div class="flex items-start gap-4">
+                            <div class="mt-1 text-brand-orange"><i class="fa-solid fa-location-dot text-xl"></i></div>
+                            <div>
+                                <h4 class="font-bold text-sm uppercase tracking-wider text-slate-300">Store Address</h4>
+                                <p class="text-slate-400 mt-1 leading-relaxed">Infront of Nagar Panchayat,<br>Near Chhanga Tiraha, Kabrai,<br>Uttar Pradesh 210424</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="mt-1 text-brand-orange"><i class="fa-solid fa-phone text-xl"></i></div>
+                            <div>
+                                <h4 class="font-bold text-sm uppercase tracking-wider text-slate-300">Direct Line</h4>
+                                <p class="text-slate-400 mt-1 font-mono text-lg">087078 26228</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="mt-1 text-brand-orange"><i class="fa-solid fa-clock text-xl"></i></div>
+                            <div>
+                                <h4 class="font-bold text-sm uppercase tracking-wider text-slate-300">Operating Hours</h4>
+                                <p class="text-slate-400 mt-1">Monday - Sunday<br>9:00 AM - 7:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Form -->
+                <div class="lg:col-span-3 p-10">
+                    <div class="flex justify-between items-center mb-6 border-b border-gray-100 pb-4">
+                        <h3 class="font-heading text-2xl font-bold text-brand-dark uppercase">Send us an Email</h3>
+                        <span class="text-xs font-bold text-brand-green bg-green-50 px-2 py-1 rounded">FAST REPLY</span>
+                    </div>
+                    <form class="space-y-6 text-brand-dark">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Your Name</label>
+                                <input type="text" placeholder="John Doe" class="w-full border border-gray-300 rounded p-3 bg-gray-50 focus:outline-none focus:border-brand-orange">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Phone Number</label>
+                                <input type="tel" placeholder="+91" class="w-full border border-gray-300 rounded p-3 bg-gray-50 focus:outline-none focus:border-brand-orange">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Inquiry Type</label>
+                            <select class="w-full border border-gray-300 rounded p-3 bg-gray-50 focus:outline-none focus:border-brand-orange appearance-none">
+                                <option>Part Availability & Pricing</option>
+                                <option>Bulk B2B Order</option>
+                                <option>General Inquiry</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Your Message</label>
+                            <textarea rows="4" placeholder="How can we help you?" class="w-full border border-gray-300 rounded p-3 bg-gray-50 focus:outline-none focus:border-brand-orange"></textarea>
+                        </div>
+                        <div class="flex gap-4 pt-2">
+                            <button type="submit" class="flex-1 bg-brand-orange hover:bg-orange-600 text-white font-bold py-3 rounded transition uppercase text-sm tracking-wider shadow-md">
+                                Send Message
+                            </button>
+                            <button type="button" class="flex-1 bg-brand-green hover:bg-emerald-600 text-white font-bold py-3 rounded transition uppercase text-sm tracking-wider shadow-md flex items-center justify-center gap-2">
+                                <i class="fa-brands fa-whatsapp"></i> WhatsApp Instead
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pre-Footer Banner -->
+    <div class="bg-brand-card py-6 border-y border-brand-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-6 text-center md:text-left divide-y md:divide-y-0 md:divide-x divide-slate-800">
+            <div class="flex items-center justify-center md:justify-start gap-4 py-2 md:py-0">
+                <i class="fa-solid fa-shield-halved text-brand-orange text-2xl"></i>
+                <div>
+                    <h5 class="text-white font-bold text-sm uppercase">Genuine Quality</h5>
+                    <p class="text-slate-400 text-xs">Trusted OEM & Aftermarket</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center md:justify-start gap-4 py-2 md:py-0 md:pl-8">
+                <i class="fa-solid fa-headset text-brand-orange text-2xl"></i>
+                <div>
+                    <h5 class="text-white font-bold text-sm uppercase">Technical Support</h5>
+                    <p class="text-slate-400 text-xs">Call 087078 26228</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center md:justify-start gap-4 py-2 md:py-0 md:pl-8">
+                <i class="fa-solid fa-star text-brand-orange text-2xl"></i>
+                <div>
+                    <h5 class="text-white font-bold text-sm uppercase">5.0 Star Rating</h5>
+                    <p class="text-slate-400 text-xs">Rated by local mechanics</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Footer -->
+    <footer class="bg-brand-dark pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Branding Col -->
+                <div>
+                    <div class="flex items-center gap-2 mb-6">
+                        <div class="bg-white text-brand-dark font-heading font-bold text-xl px-2 py-1 tracking-tight">PATEL</div>
+                        <div class="font-heading font-bold text-lg text-white tracking-wide">TRACTOR PARTS</div>
+                    </div>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Central India's trusted distributor for genuine agricultural and commercial vehicle spares. Operating since 1997 with a commitment to zero downtime.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-8 h-8 rounded-full bg-brand-border flex items-center justify-center text-slate-400 hover:bg-brand-orange hover:text-white transition"><i class="fa-brands fa-facebook-f text-sm"></i></a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-brand-border flex items-center justify-center text-slate-400 hover:bg-brand-orange hover:text-white transition"><i class="fa-brands fa-whatsapp text-sm"></i></a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-brand-border flex items-center justify-center text-slate-400 hover:bg-brand-orange hover:text-white transition"><i class="fa-solid fa-envelope text-sm"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-heading font-bold text-white uppercase tracking-wider mb-6">Quick Links</h4>
+                    <ul class="space-y-3 text-sm text-slate-400">
+                        <li><a href="#" class="hover:text-brand-orange transition"><i class="fa-solid fa-chevron-right text-xs mr-2 opacity-50"></i> Home</a></li>
+                        <li><a href="#about" class="hover:text-brand-orange transition"><i class="fa-solid fa-chevron-right text-xs mr-2 opacity-50"></i> About Us</a></li>
+                        <li><a href="#inventory" class="hover:text-brand-orange transition"><i class="fa-solid fa-chevron-right text-xs mr-2 opacity-50"></i> Current Inventory</a></li>
+                        <li><a href="#why-us" class="hover:text-brand-orange transition"><i class="fa-solid fa-chevron-right text-xs mr-2 opacity-50"></i> Why Choose Us</a></li>
+                        <li><a href="#contact" class="hover:text-brand-orange transition"><i class="fa-solid fa-chevron-right text-xs mr-2 opacity-50"></i> Contact Support</a></li>
+                    </ul>
+                </div>
+
+                <!-- Specialties -->
+                <div>
+                    <h4 class="font-heading font-bold text-white uppercase tracking-wider mb-6">Our Specialties</h4>
+                    <ul class="space-y-3 text-sm text-slate-400">
+                        <li><a href="#" class="hover:text-brand-orange transition"><i class="fa-solid fa-chevron-right text-xs mr-2 opacity-50"></i> Swaraj Parts</a></li>
+                        <li><a href="#" class="hover:text-brand-orange transition"><i class="fa-solid fa-chevron-right text-xs mr-2 opacity-50"></i> Mahindra Tractor Spares</a></li>
+                        <li><a href="#" class="hover:text-brand-orange transition"><i class="fa-solid fa-chevron-right text-xs mr-2 opacity-50"></i> Sonalika & Eicher Components</a></li>
+                        <li><a href="#" class="hover:text-brand-orange transition"><i class="fa-solid fa-chevron-right text-xs mr-2 opacity-50"></i> Mahindra Jeep & Bolero Spares</a></li>
+                        <li><a href="#" class="hover:text-brand-orange transition"><i class="fa-solid fa-chevron-right text-xs mr-2 opacity-50"></i> Engine & Hydraulic Systems</a></li>
+                    </ul>
+                </div>
+
+                <!-- Direct Contact -->
+                <div>
+                    <h4 class="font-heading font-bold text-white uppercase tracking-wider mb-6">Fastest Service</h4>
+                    <p class="text-sm text-slate-400 mb-4">For immediate pricing and stock checks, message us a photo of your part on WhatsApp.</p>
+                    <a href="https://wa.me/918707826228" class="block w-full text-center bg-brand-green hover:bg-emerald-600 text-white font-bold py-3 rounded transition uppercase text-sm tracking-wider mb-4">
+                        <i class="fa-brands fa-whatsapp mr-1"></i> WhatsApp Message
+                    </a>
+                    <a href="tel:+918707826228" class="block w-full text-center bg-transparent border border-slate-700 hover:border-brand-orange text-white font-bold py-3 rounded transition uppercase text-sm tracking-wider">
+                        <i class="fa-solid fa-phone mr-1"></i> Call 087078 26228
+                    </a>
+                </div>
+            </div>
+
+            <div class="border-t border-brand-border pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500">
+                <p>&copy; 2026 Patel Tractor Parts. All rights reserved.</p>
+                <div class="flex gap-4 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition">Terms of Service</a>
+                    <a href="#" class="hover:text-white transition">Return Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
